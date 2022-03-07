@@ -10,3 +10,6 @@ def buy(request):
 
 def rent(request):
     return render(request, 'rent.html')
+
+def about(request):
+    return render(request, 'about.html')

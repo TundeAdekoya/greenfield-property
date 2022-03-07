@@ -1,0 +1,424 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Rent
+{% endblock title %}
+
+{% block body %}
+<header>
+    <nav>
+        <div>
+            <h2>GreenField</h2>
+        </div>
+        <div>
+            <a href="">Home</a>
+            <a href="">Buy</a>
+            <a href=""><b>Rent</b></a>
+            <a href="">About</a>
+            <a href="">Blog</a>
+            <a href="">Login</a>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <img src="" alt="profile-image">
+        </div>
+    </nav>
+    <!-- ABOVE THE FOLD -->
+    <div class="searchbar">
+        <img src="" alt="searchhome-image">
+        <div class="searchbar-text">
+            <h1>Rent homes in your neigbourhood</h1>
+            <p>cost effective route to selling or buying properties online and saving them each in the process</p>
+                        <div class="search-input">
+                <form action="">
+                    <label for="city">City</label>
+                    <input type="text" name="city" placeholder="Enter your city">
+                    <label for="address">Address</label>
+                    <input type="text" name="address" placeholder="Enter your address">
+                </form>
+                <input type="submit" value="search">
+            </div>
+        </div>
+    </div>
+
+    <!-- TRENDING HOMES -->
+    <div class="trending-homes">
+        <div class="trending-rent-search">
+            <h1>Trending homes</h1>
+            <div class="trending-home-option">
+                <div class="dropdown">
+                <label for="type">Home Type</label>
+                    <select name="type" id="">                   
+                            <option value="single-family">single family</option>
+                            <option value="apartment">apartment</option>
+                            <option value="bungalow">bungalow</option>
+                            <option value="mansion">mansion</option>
+                    </select>
+                </div>
+                <button>See all homes</button>
+            </div>
+            <div class="buy-direction">
+                <p>cost effective route to selling or buying properties online and saving them each </p>
+                <div class="direction">
+                    <a href="">next <i class="fa-solid fa-right-long"></i></a>
+                    <a href="">previous <i class="fa-solid fa-left-long"></i></a>
+                </div>
+            </div>
+
+            <div class="property-detail">
+                <div class="square">
+                    <img src="" alt="poperty-image">
+                    <h5>Rented</h5>
+                    <div class="propert-detail-text">
+                        <h3><i class="fa-solid fa-naira-sign"></i> 750,000 / Month</h3>
+                        <h5><i class="fa-light fa-eye"></i>200 Views</h5>
+                        <h5><i class="fa-light fa-heart"></i>54 Likes</h5>
+                    </div>
+                    <div class="property-detail-textdetail">
+                        <h4>residential apartment ikoyi, lagos</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias deleniti adipisci, quod, ullam laudantium quaerat sequi.</p>
+                        <h3>VIEW PROPERTY<i class="fa-solid fa-right-long"></i></h3>
+                    </div>
+                </div>
+    
+                <div class="square">
+                    <img src="" alt="poperty-image">
+                    <h5>avaliable</h5>
+                    <div class="propert-detail-text">
+                        <h3><i class="fa-solid fa-naira-sign"></i> 550,000 / Month</h3>
+                        <h5><i class="fa-light fa-eye"></i>200 Views</h5>
+                        <h5><i class="fa-light fa-heart"></i>54 Likes</h5>
+                    </div>
+                    <div class="property-detail-textdetail">
+                        <h4>residential apartment ikoyi, lagos</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias deleniti adipisci, quod, ullam laudantium quaerat sequi.</p>
+                        <h3>VIEW PROPERTY<i class="fa-solid fa-right-long"></i></h3>
+                        <button>RENTED</button>
+                    </div>
+                </div>
+    
+                <div class="square">
+                    <img src="" alt="poperty-image">
+                    <h5>avaliable</h5>
+                    <div class="propert-detail-text">
+                        <h3><i class="fa-solid fa-naira-sign"></i> 350,000 / Month</h3>
+                        <h5><i class="fa-light fa-eye"></i>200 Views</h5>
+                        <h5><i class="fa-light fa-heart"></i>54 Likes</h5>
+                    </div>
+                    <div class="property-detail-textdetail">
+                        <h4>residential apartment ikoyi, lagos</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias deleniti adipisci, quod, ullam laudantium quaerat sequi.</p>
+                        <h3>VIEW PROPERTY<i class="fa-solid fa-right-long"></i></h3>
+                        <button>RENTED</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<!-- NEW HOMES -->
+    <div class="trending-homes">
+        <div class="trending-buy-search">
+            <h1>New homes</h1>
+            <div class="trending-home-option">
+                <div class="dropdown">
+                <label for="type">Home Type</label>
+                    <select name="type" id="">                   
+                            <option value="single-family">single family</option>
+                            <option value="apartment">apartment</option>
+                            <option value="bungalow">bungalow</option>
+                            <option value="mansion">mansion</option>
+                    </select>
+                </div>
+                <button>See all homes</button>
+            </div>
+            <div class="buy-direction">
+                <p>cost effective route to selling or buying properties online and saving them each </p>
+                <div class="direction">
+                    <a href="">next <i class="fa-solid fa-right-long"></i></a>
+                    <a href="">previous <i class="fa-solid fa-left-long"></i></a>
+                </div>
+            </div>
+
+            <div class="property-detail">
+                <div class="square">
+                    <img src="" alt="poperty-image">
+                    <h5>avaliable</h5>
+                    <div class="propert-detail-text">
+                        <h3><i class="fa-solid fa-naira-sign"></i> 350,000 / Month</h3>
+                        <h5><i class="fa-light fa-eye"></i>200 Views</h5>
+                        <h5><i class="fa-light fa-heart"></i>54 Likes</h5>
+                    </div>
+                    <div class="property-detail-textdetail">
+                        <h4>residential apartment ikoyi, lagos</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias deleniti adipisci, quod, ullam laudantium quaerat sequi.</p>
+                        <h3>VIEW PROPERTY<i class="fa-solid fa-right-long"></i></h3>
+                        <button>RENT</button>
+                    </div>
+                </div>
+
+                <div class="square">
+                    <img src="" alt="poperty-image">
+                    <h5>rented</h5>
+                    <div class="propert-detail-text">
+                        <h3><i class="fa-solid fa-naira-sign"></i> 350,000 / Month</h3>
+                        <h5><i class="fa-light fa-eye"></i>200 Views</h5>
+                        <h5><i class="fa-light fa-heart"></i>54 Likes</h5>
+                    </div>
+                    <div class="property-detail-textdetail">
+                        <h4>residential apartment ikoyi, lagos</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias deleniti adipisci, quod, ullam laudantium quaerat sequi.</p>
+                        <h3>VIEW PROPERTY<i class="fa-solid fa-right-long"></i></h3>
+                    </div>
+                </div>
+
+                <div class="square">
+                    <img src="" alt="poperty-image">
+                    <h5>avaliable</h5>
+                    <div class="propert-detail-text">
+                        <h3><i class="fa-solid fa-naira-sign"></i> 350,000 / Month</h3>
+                        <h5><i class="fa-light fa-eye"></i>200 Views</h5>
+                        <h5><i class="fa-light fa-heart"></i>54 Likes</h5>
+                    </div>
+                    <div class="property-detail-textdetail">
+                        <h4>residential apartment ikoyi, lagos</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias deleniti adipisci, quod, ullam laudantium quaerat sequi.</p>
+                        <h3>VIEW PROPERTY<i class="fa-solid fa-right-long"></i></h3>
+                        <button>RENT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<!-- RECOMMENDED HOMES -->
+    <div class="trending-homes">
+        <div class="trending-buy-search">
+            <h1>Recommended homes</h1>
+            <div class="trending-home-option">
+                <div class="dropdown">
+                <label for="type">Home Type</label>
+                    <select name="type" id="">                   
+                            <option value="single-family">single family</option>
+                            <option value="apartment">apartment</option>
+                            <option value="bungalow">bungalow</option>
+                            <option value="mansion">mansion</option>
+                    </select>
+                </div>
+                <button>See all homes</button>
+            </div>
+            <div class="buy-direction">
+                <p>cost effective route to selling or buying properties online and saving them each </p>
+                <div class="direction">
+                    <a href="">next <i class="fa-solid fa-right-long"></i></a>
+                    <a href="">previous <i class="fa-solid fa-left-long"></i></a>
+                </div>
+            </div>
+
+            <div class="property-detail">
+                <div class="square">
+                    <img src="" alt="poperty-image">
+                    <h5>Rented</h5>
+                    <div class="propert-detail-text">
+                        <h3><i class="fa-solid fa-naira-sign"></i> 350,000 / Month</h3>
+                        <h5><i class="fa-light fa-eye"></i>200 Views</h5>
+                        <h5><i class="fa-light fa-heart"></i>54 Likes</h5>
+                    </div>
+                    <div class="property-detail-textdetail">
+                        <h4>residential apartment ikoyi, lagos</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias deleniti adipisci, quod, ullam laudantium quaerat sequi.</p>
+                        <h3>VIEW PROPERTY<i class="fa-solid fa-right-long"></i></h3>
+
+                    </div>
+                </div>
+
+                <div class="square">
+                    <img src="" alt="poperty-image">
+                    <h5>avaliable</h5>
+                    <div class="propert-detail-text">
+                        <h3><i class="fa-solid fa-naira-sign"></i> 350,000 / Month</h3>
+                        <h5><i class="fa-light fa-eye"></i>200 Views</h5>
+                        <h5><i class="fa-light fa-heart"></i>54 Likes</h5>
+                    </div>
+                    <div class="property-detail-textdetail">
+                        <h4>residential apartment ikoyi, lagos</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias deleniti adipisci, quod, ullam laudantium quaerat sequi.</p>
+                        <h3>VIEW PROPERTY<i class="fa-solid fa-right-long"></i></h3>
+                        <button>RENTED</button>
+                    </div>
+                </div>
+
+                <div class="square">
+                    <img src="" alt="poperty-image">
+                    <h5>avaliable</h5>
+                    <div class="propert-detail-text">
+                        <h3><i class="fa-solid fa-naira-sign"></i> 350,000 / Month</h3>
+                        <h5><i class="fa-light fa-eye"></i>200 Views</h5>
+                        <h5><i class="fa-light fa-heart"></i>54 Likes</h5>
+                    </div>
+                    <div class="property-detail-textdetail">
+                        <h4>residential apartment ikoyi, lagos</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias deleniti adipisci, quod, ullam laudantium quaerat sequi.</p>
+                        <h3>VIEW PROPERTY<i class="fa-solid fa-right-long"></i></h3>
+                        <button>RENTED</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<!-- WHAT CAN WE HELP YOU WITH -->
+    <div class="help-section">
+        <div class="center">
+            <h1>What can we help you get?</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis sequi iste officiis commodi perspiciatis.</p>
+            <div class="space-type">
+                <div class="a">
+                    <div class="icon">
+                        <i class="fa-solid house"></i>
+                    </div>
+                    <p>Single Family House</p>
+                </div>
+                <div class="b">
+                    <div class="icon">
+                        <i class="fa-solid house"></i>
+                    </div>
+                    <p>Apartment House</p>
+                </div>
+                <div class="c">
+                    <div class="icon">
+                        <i class="fa-solid house"></i>
+                    </div>
+                    <p>Bungalow</p>
+                </div>
+                <div class="d">
+                    <div class="icon">
+                        <i class="fa-solid house"></i>
+                    </div>
+                    <p>Mansion</p>
+                </div>
+            </div>
+        </div>
+        <div class="direction">
+            <a href="">next <i class="fa-solid fa-right-long"></i></a>
+            <a href="">previous <i class="fa-solid fa-left-long"></i></a>
+        </div>
+    </div>
+
+<!-- FEATURED PROPERTY FOR SALE -->
+    <div class="featured-properties">
+        <h1>Featured properties for rent</h1>
+        <div class="buy-direction">
+            <p>cost effective route to selling or buying properties online and saving them each </p>
+            <div class="direction">
+                <a href="">next <i class="fa-solid fa-right-long"></i></a>
+                <a href="">previous <i class="fa-solid fa-left-long"></i></a>
+            </div>
+        </div>
+
+        <div class="square">
+            <img src="" alt="poperty-image">
+            <h5>avaliable</h5>
+            <div class="propert-detail-text">
+                <h3><i class="fa-solid fa-naira-sign"></i> 350,000 / Month</h3>
+                <h5><i class="fa-light fa-eye"></i>200 Views</h5>
+                <h5><i class="fa-light fa-heart"></i>54 Likes</h5>
+            </div>
+            <div class="property-detail-textdetail">
+                <h3>residential apartment ikoyi, lagos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias deleniti adipisci, quod, ullam laudantium quaerat sequi.</p>
+                <h3>VIEW PROPERTY<i class="fa-solid fa-right-long"></i></h3>
+            </div>
+        </div>
+
+        <div class="square">
+            <img src="" alt="poperty-image">
+            <h5>avaliable</h5>
+            <div class="propert-detail-text">
+                <h3><i class="fa-solid fa-naira-sign"></i> 350,000 / Month</h3>
+                <h5><i class="fa-light fa-eye"></i>200 Views</h5>
+                <h5><i class="fa-light fa-heart"></i>54 Likes</h5>
+            </div>
+            <div class="property-detail-textdetail">
+                <h3>residential apartment ikoyi, lagos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias deleniti adipisci, quod, ullam laudantium quaerat sequi.</p>
+                <h3>VIEW PROPERTY<i class="fa-solid fa-right-long"></i></h3>
+            </div>
+        </div>
+
+        <div class="square">
+            <img src="" alt="poperty-image">
+            <h5>Rented</h5>
+            <div class="propert-detail-text">
+                <h3><i class="fa-solid fa-naira-sign"></i> 350,000 / Month</h3>
+                <h5><i class="fa-light fa-eye"></i>200 Views</h5>
+                <h5><i class="fa-light fa-heart"></i>54 Likes</h5>
+            </div>
+            <div class="property-detail-textdetail">
+                <h3>residential apartment ikoyi, lagos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias deleniti adipisci, quod, ullam laudantium quaerat sequi.</p>
+                <h3>VIEW PROPERTY<i class="fa-solid fa-right-long"></i></h3>
+            </div>
+        </div>
+    </div>
+
+     <!-- BELOW THE FOLD -->    
+     <footer>
+        <div class="greenfield-footer">
+            <div class="greenfield">
+                <div class="line"></div>
+                <h3>GreenField</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, esse vitae velit quae impedit aliquam dolorum a nam libero accusamus dolores.</p>
+            </div>
+
+            <div class="greenfield-footer-detail">
+                <div class="line"></div>
+                <h3>Services</h3>
+                <ul>
+                    <li>property sales</li>
+                    <li>property rent</li>
+                    <li>property agent</li>
+                    <li>consultant</li>
+                </ul>
+            </div>
+
+            <div class="greenfield-footer-detail">
+                <div class="line"></div>
+                <h3>Company</h3>
+                <ul>
+                    <li>about</li>
+                    <li>testimonial</li>
+                    <li>blog</li>
+                    <li>FAQs</li>
+                    <li>privacy policy</li>
+                </ul>
+            </div>
+
+            <div class="greenfield-footer-detail">
+                <div class="line"></div>
+                <h3>Connect with us</h3>
+                <ul>
+                    <li>42 montgomery road sabo yaba, lagos</li>
+                    <li>info@greenfield.com</li>
+                    <li>0803-2344-898</li>
+                </ul>
+                <div class="footer-icon">
+                    <i class="fa-solid fa-right-long"></i>
+                    <i class="fa-solid fa-right-long"></i>
+                    <i class="fa-solid fa-right-long"></i>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+        </div>
+        <div class="greenfield-footer-below">
+            <div class="line"></div>
+            <div class="greenfield-footer-below-detail">
+                <h3>GreenField property</h3>
+                <p>@ All simple right reserved</p>
+            </div>
+            <div class="line"></div>
+        </div>
+    </footer>
+</header>
+{% endblock body %}
